@@ -18,7 +18,7 @@ We first created a query that retrieved the employee number, first and last name
  - The [Membership Eligibility](https://github.com/shahkibria/Pewlett-Hackard-Analysis/blob/main/Data/membership_eligibility.csv) table provides a list of employees who are eligible to enter into the mentorship program. We also ran a code to calculate the total number of employees listed in this table. This adds up to 1,549 employees. A screenshot of the table is also provided below:
  ![](https://github.com/shahkibria/Pewlett-Hackard-Analysis/blob/main/Screenshots/Mentorship%20Eligibility.png)
     
-   We have also added a screenshot of the count of employees who are eligible for mentorship by department. 
+   We have also added a screenshot of the count of employees by department who are eligible for mentorship by department. 
    ![](https://github.com/shahkibria/Pewlett-Hackard-Analysis/blob/main/Screenshots/Mentorship%20Eligibility%20-%20By%20Department.png)
  
  ## Conclusion
