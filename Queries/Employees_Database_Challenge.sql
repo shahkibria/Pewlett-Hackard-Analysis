@@ -66,3 +66,24 @@ WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 AND (dt.to_date = '9999-01-01')
 ORDER BY e.emp_no
 ;
+
+-- -------------- Additional Code done for the Analysis ------------------------------------------
+
+-- This not part of the Assignment. This code was run to determine the number of active employees in the organization. 
+SELECT
+COUNT (emp_no)
+FROM deptemp
+WHERE (to_date = '9999-01-01')
+;
+
+-- This not part of the Assignment. This code was run to determine the number of employees eligible for mentorship. 
+SELECT
+COUNT (emp_no)
+FROM mentorship_eligibilty
+;
+
+-- This not part of the Assignment. This code was run to determine the total number of employees who are about to retire
+SELECT
+SUM (count)
+FROM retiring_titles
+;
