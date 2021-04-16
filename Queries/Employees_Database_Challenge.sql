@@ -87,3 +87,13 @@ SELECT
 SUM (count)
 FROM retiring_titles
 ;
+
+-- This not part of the Assignment. This code was run to determine the count of employees in each department who are eligble for mentorship
+SELECT
+COUNT (me.emp_no),
+me.title
+--INTO retiring_titles
+FROM mentorship_eligibilty as me
+GROUP BY me.title
+ORDER BY me.count DESC
+;
