@@ -13,7 +13,7 @@ We first created a query that retrieved the employee number, first and last name
  - The [Retiring Titles](https://github.com/shahkibria/Pewlett-Hackard-Analysis/blob/main/Data/retiring_titles.csv) table summerizes the Uniques Titles table where we can see the total number of employees per department who are eligible for retirement. We also run a sum code on this table to determine the total number of employees eligible for retirement which is 90,398 employees.
  - The Returing Titles table also shows which titles have the highest number of retirement eligibilities. From the screenshot below, we can see that most of the employees who are about to retire are either in "Senior" or "Leader" positions. In fact a total of 62,172 employees out of the total 90,398 employees who are about to retire have either a "Senior" or "Leader" position (approximately 69%). 
 
-  ![](https://github.com/shahkibria/Pewlett-Hackard-Analysis/blob/main/Screenshots/Retirement%20by%20Department.png)
+   ![](https://github.com/shahkibria/Pewlett-Hackard-Analysis/blob/main/Screenshots/Retirement%20by%20Department.png)
 
  - The [Membership Eligibility](https://github.com/shahkibria/Pewlett-Hackard-Analysis/blob/main/Data/membership_eligibility.csv) table provides a list of employees who are eligible to enter into the mentorship program. We also ran a code to calculate the total number of employees listed in this table. This adds up to 1,549 employees. A screenshot of the table is also provided below:
  ![](https://github.com/shahkibria/Pewlett-Hackard-Analysis/blob/main/Screenshots/Mentorship%20Eligibility.png)
